@@ -17,6 +17,11 @@
             background-attachment: fixed;
             background-position: center;
         }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: #35dc79;
+        }
         {
             width: 30%;
             height: 10vh;
@@ -37,6 +42,19 @@
         img{
             height: 300px;
         }
+
+        .actors{
+            /*box-sizing: border-box;*/
+            width: 100%;
+            gap: 250px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            display: grid;
+            /*width: 100%;*/
+            height: 90vh;
+        }
+        .actor{
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -45,25 +63,48 @@
 <h1>Фільм "Бетмен" 1989 року</h1>
 <h2>Актори</h2>
 
-<img src="https://variety.com/wp-content/uploads/2024/08/MCDFLAS_WB028.jpg?w=1000&h=667&crop=1" alt="Michael Keaton — Bruce Wayne / Batman">
-<p>Michael Keaton</p>
+<div class="actors">
+    <div class="actor">
+        <img src="https://variety.com/wp-content/uploads/2024/08/MCDFLAS_WB028.jpg?w=1000&h=667&crop=1" alt="Michael Keaton — Bruce Wayne / Batman">
+        <p>Michael Keaton</p>
+    </div>
 
-<img src="https://m.media-amazon.com/images/M/MV5BMzVmNDI2ODctNTc4NS00ZjhjLWEyZGYtMTI4NWU2M2E1MTRmXkEyXkFqcGc@._V1_.jpg" alt="Jack Nicholson — Jack Napier / The Joker">
-<p>Jack Nicholson</p>
+    <div class="actor">
+        <img src="https://m.media-amazon.com/images/M/MV5BMzVmNDI2ODctNTc4NS00ZjhjLWEyZGYtMTI4NWU2M2E1MTRmXkEyXkFqcGc@._V1_.jpg"
+              alt="Jack Nicholson — Jack Napier / The Joker">
+        <p>Jack Nicholson</p>
+    </div>
 
-<img src="https://darkknightnews.com/wp-content/uploads/2019/06/Kim-Basinger-Vicki-Vale-Batman-1989-header.jpg" alt="Kim Basinger"><p>Kim Basinger — Vicki Vale</p>
+    <div class="actor">
+        <img src="https://darkknightnews.com/wp-content/uploads/2019/06/Kim-Basinger-Vicki-Vale-Batman-1989-header.jpg" alt="Kim Basinger">
+        <p>Kim Basinger — Vicki Vale</p>
+    </div>
 
-<img src="https://dcworld.org.uk/wp-content/uploads/2019/03/Batman-Alexander-Knox-Robert-Wuhl.jpg" alt="Robert Wuhl — Alexander Knox"> <p>Robert Wuhl — Alexander Knox</p>
+    <div class="actor">
+        <img src="https://dcworld.org.uk/wp-content/uploads/2019/03/Batman-Alexander-Knox-Robert-Wuhl.jpg" alt="Robert Wuhl — Alexander Knox">
+        <p>Robert Wuhl — Alexander Knox</p>
+    </div>
 
-<img src="https://i.redd.it/w8k84jz56zsb1.jpg" alt="Pat Hingle — Commissioner James Gordon"> <p>Pat Hingle — Commissioner James Gordon</p>
+    <div class="actor">
+        <img src="https://i.redd.it/w8k84jz56zsb1.jpg" alt="Pat Hingle — Commissioner James Gordon">
+        <p>Pat Hingle — Commissioner James Gordon</p>
+    </div>
 
-<img
-        src="https://www.thepopverse.com/_next/image?url=https%3A%2F%2Fmedia.thepopverse.com%2Fmedia%2Fbilly-dee-williams-batman-1989-still-xbpo0gxhdonenahv2tufqxbuvi.jpg&w=640&q=75" alt="Billy Dee Williams — Harvey Dent"> <p>Billy Dee Williams — Harvey Dent</p>
+    <div class="actor">
+        <img
+            src="https://www.thepopverse.com/_next/image?url=https%3A%2F%2Fmedia.thepopverse.com%2Fmedia%2Fbilly-dee-williams-batman-1989-still-xbpo0gxhdonenahv2tufqxbuvi.jpg&w=640&q=75"
+            alt="Billy Dee Williams — Harvey Dent">
+        <p>Billy Dee Williams — Harvey Dent</p>
+    </div>
 
-<img src="https://m.media-amazon.com/images/M/MV5BNmI5YmYzZmMtZGVkMy00YjgwLTg2MGUtM2M4NjMxMGMwMjU2XkEyXkFqcGc@._V1_.jpg" alt="Michael Gough — Alfred Pennyworth"> <p>Michael Gough — Alfred Pennyworth</p>
+    <div class="actor">
+        <img src="https://m.media-amazon.com/images/M/MV5BNmI5YmYzZmMtZGVkMy00YjgwLTg2MGUtM2M4NjMxMGMwMjU2XkEyXkFqcGc@._V1_.jpg" alt="Michael Gough — Alfred Pennyworth">
+        <p>Michael Gough — Alfred Pennyworth</p>
+    </div>
 
-<img src="https://i.pinimg.com/736x/51/b1/76/51b176a677f000e6ddc243787ec670da.jpg" alt="Jack Palance — Carl Grissom"> <p>Jack Palance — Carl Grissom</p>
+    <div class="actor">
+        <img src="https://i.pinimg.com/736x/51/b1/76/51b176a677f000e6ddc243787ec670da.jpg" alt="Jack Palance — Carl Grissom"> <p>Jack Palance — Carl Grissom</p>
+    </div>
+</div>
 </body>
-
-<img src="" alt="">
 </html>
