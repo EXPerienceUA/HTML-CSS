@@ -1,0 +1,18 @@
+body{
+    background-color: #1e6939;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+}
+.minibox{
+    background-color: #c9fcda;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 15px;
+    padding: 0 20px;
+}
