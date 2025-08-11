@@ -1,7 +1,11 @@
 body{
-    background-color: #1e6939;
+    background-color: rgba(24, 101, 34, 0.83);
+    font-size: 20px;
 }
 
+h4{
+    font-size: 30px;
+}
 .box{
     display: flex;
     justify-content: space-evenly;
@@ -10,9 +14,13 @@ body{
     width: 100vw;
 }
 .minibox{
-    background-color: #c9fcda;
-    width: 8vw;
-    height: 8vw;
-    border-radius: 15px;
+    background-color: #d6ffe4;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 10px;
     padding: 0 20px;
+}
+
+#box1{
+    margin: 6vh 0;
 }
