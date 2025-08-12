@@ -1,0 +1,39 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    text-decoration: none;
+}
+div div h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    font-size: 50px;
+}
+h2{
+    font-size: 60px;
+}
+
+#sectionOne{
+    background-color: rgba(255, 109, 109, 0.58);
+}
+#sectionTwo{
+    background-color: rgba(136, 255, 242, 0.57);
+}
+#sectionThree{
+    background-color: rgba(53, 220, 125, 0.61);
+}
