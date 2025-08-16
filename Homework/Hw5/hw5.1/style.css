@@ -1,0 +1,21 @@
+.orangeDiv{
+    background-color: #d58900;
+    height: 100px;
+    width: 100px;
+    margin: 300px auto;
+    animation: orange 2s ease-in-out infinite;
+}
+
+@keyframes orange {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(3) rotate(50deg) skew(10deg);
+        border-radius: 20%;
+        background-color: #bac032;
+    }
+    100%{
+        transform: scale(1);
+    }
+}

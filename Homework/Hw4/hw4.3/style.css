@@ -10,7 +10,7 @@ header{
 aside{
     background: #C0BDBD;
     height: 56.312vh;
-    width: 48vh;
+    width: 48vW;
 }
 main{
     display: flex;
@@ -21,12 +21,12 @@ section{
 }
 .topDiv{
     height: 26.141vh;
-    width: 56vh;
+    width: 56vW;
     background: #827878;
 }
 .botDiv{
     height: 30.17vh;
-    width: 56vh;
+    width: 56vW;
     background: #B7ADAD;
 }
 footer{

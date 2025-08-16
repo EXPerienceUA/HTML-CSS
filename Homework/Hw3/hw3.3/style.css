@@ -13,7 +13,7 @@ div div{
     justify-content: center;
     text-align: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     text-decoration: none;
 }
 div div h2 a{
